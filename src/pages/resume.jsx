@@ -12,7 +12,6 @@ const resume = () => {
       <div  className="text-light bg-dark p-5">
         <Container>
           <h1>Resume</h1>
-          https://docs.google.com/document/d/1E4lFqwX72DzT0jGDDtcSTWH38oJop4Uo1jxvA1OyKuo/edit?usp=sharing
         </Container>
       </div>
       <Container>

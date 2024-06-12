@@ -24,9 +24,9 @@ const portfolio = () => {
   // },
   { 
     title: "Cody's Landing Page", 
-    description: "My landing page is built using React. It introduces users about me as a software developer and showcase my technical skills. My website is constantly updated with new portfolio projects. Stay tuned!", 
+    description: "My landing page is built using React. It introduces users about me as a software developer and showcases my technical skills. This site is deployed through netlify. My website is constantly updated with new portfolio projects. Stay tuned!", 
     image: "/Lighthouse.jpg",
-    link: ""
+    link: "https://codylinportfolio.netlify.app/portfolio"
   },
   { 
     title: "Javascript quiz", 
