@@ -1,6 +1,6 @@
 import {Container, Col, Row, Card, CardBody } from 'react-bootstrap';
-import Hero from '../../public/Lighthouse1.jpg'
-import portrait from '../../public/headshot1.jpg';
+import Hero from '/Lighthouse1.jpg'
+//import portrait from '/headshot.png';
 //import { Row } from 'reactstrap';
 
 const styles ={
@@ -29,7 +29,7 @@ const aboutme = () => {
             <Col>{/* <Col className="text-light bg-dark p-5"> */}
           
       
-          <h2><img src={portrait} height={300}></img>
+          <h2><img src='/Headshot.png' alt='portrait' height={300}></img>
         </h2>
         </Col>
         
