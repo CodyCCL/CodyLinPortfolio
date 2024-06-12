@@ -9,8 +9,8 @@ import {
   NavLink,
   Collapse,
 } from "reactstrap";
-import LinkedIn from "../../public/LI-In-Bug.png";
-import Github from "../../public/github-mark.png";
+import LinkedIn from "/LI-In-Bug.png";
+import Github from "/github-mark.png";
 
 const styles = {
   navbar: {
@@ -81,7 +81,7 @@ function Navigation() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink style={styles.linkIcons}  href="https://www.linkedin.com/in/codycclin" target="_blank" rel="noopener noreferrer">
+              <NavLink style={styles.linkIcons} href="https://www.linkedin.com/in/codycclin/" target="_blank" rel="noopener noreferrer">
                 <img src={LinkedIn} alt="LinkedIn logo" height="26"></img>
               </NavLink>
             </NavItem>
