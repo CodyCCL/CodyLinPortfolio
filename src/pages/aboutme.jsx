@@ -36,10 +36,12 @@ const aboutme = () => {
         <Col className='col-md-8'>
         <Card className='text-dark '>
           <CardBody style={styles.text}> <strong>
-          Hello, I am Cody, a fullstack web developer currently working as an environmental consultant for Federal and State agencies. 
-          My employment as a consultant has given me perspective on acquiring on the job skills to adapt to client needs and deadlines.
-          Driven by a passion for problem-solving, I enjoy exploring new technologies and expanding functionality of projects I build 
-          as each project presents a unique opportunity for me to expand my technical skills.</strong>
+          Hi, I'm Cody! I'm a passionate full-stack web developer with a strong foundation in building 
+          dynamic web applications. While currently working as an environmental consultant for Federal and State agencies, 
+          my experience has instilled in me the ability to adapt quickly and deliver results under client-driven deadlines.<br></br><br></br>
+
+          Fueled by a problem-solving mindset, I thrive in environments that encourage exploration of new technologies. 
+          Each project I tackle becomes an opportunity to expand my technical skillset and deliver projects with enhanced functionality.</strong>
         </CardBody>
         </Card>
         </Col>
