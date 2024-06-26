@@ -26,7 +26,7 @@ const portfolio = () => {
     title: "Book Search Engine", 
     description: "This MERN stack website I created allows users to search for google books and allows signed up users to favorite books in their account. This is deployed on Render.", 
     image: "/p3.png", 
-    link: "https://booksearchapi-gwrj.onrender.com"
+    link: "https://booksearchapi-tai0.onrender.com"
   },
   { 
     title: "Javascript quiz", 
