@@ -1,5 +1,6 @@
 import {Container, Col, Row, Card, CardBody } from 'react-bootstrap';
-import Hero from '/Lighthouse1.jpg'
+import Hero from '/Lighthouse1.jpg';
+import "./Home/style.css";
 //import portrait from '/headshot.png';
 //import { Row } from 'reactstrap';
 
@@ -8,10 +9,6 @@ const styles ={
     fontSize: "17px",
     fontFamily: 'sans-serif'
   },
-  Hero: {
-    width: '100%',
-
-  }
 }
 
 
@@ -19,7 +16,7 @@ const aboutme = () => {
   
   return (
       <div>
-      <img src={Hero} alt='lighthouse' style={styles.Hero} height={300}></img>
+      <img src={Hero} alt='mount' className='Hero'></img>
 
       <div className="text-light bg-dark p-5">
         

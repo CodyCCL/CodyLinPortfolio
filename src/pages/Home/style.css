@@ -7,13 +7,17 @@
 }
 
 .Hero {
-    height: 500px;
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
 }
 
 .HIWI {
     height: 200px;
     width: auto;
+    
 }
 
 .Menu {

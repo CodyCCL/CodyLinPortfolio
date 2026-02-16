@@ -4,12 +4,12 @@ import Project from '../components/Project';
 //import { Link } from 'react-router-dom';
 const portfolio = () => {
   const projects = [
-    { 
+    /*{ 
     title: "Online Food Ordering Site - 'Chow' ", 
     description: "This is a cooperative full stack website where I developed the frontend UI using React and coordinated the connection to the backend built using MongoDB. This is deployed on Heroku.", 
     image: '/Chow.png', 
     link: "https://chow-6cdd847b467b.herokuapp.com/"
-  },
+  },*/
   { 
     title: "Fitness/Wellness Blog - WellMates", 
     description: "This website was created with HTML, Javascript and CSS. This was a cooperative project with limited website functionality. I focused on building the interactive UI and APIs.", 
@@ -22,7 +22,7 @@ const portfolio = () => {
     image: "/Lighthouse.jpg",
     link: "https://codylinportfolio.netlify.app"
   },
-  { 
+  /*{ 
     title: "Book Search Engine", 
     description: "This MERN stack website I created allows users to search for google books and allows signed up users to favorite books in their account. This is deployed on Render.", 
     image: "/p3.png", 
@@ -33,7 +33,7 @@ const portfolio = () => {
     description: "Using Javascript to create a timed quiz that tally correct responses. Still a work in progress!", 
     image: "/p4.png",
     link: "https://codyccl.github.io/Code-Quiz-Challenge4/" 
-  },
+  },*/
   { 
     title: "TBD", 
     description: "Coming Soon", 

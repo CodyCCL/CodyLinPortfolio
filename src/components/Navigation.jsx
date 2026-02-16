@@ -74,12 +74,12 @@ function Navigation() {
               <NavLink style={styles.link} tag={Link} to="/contact">
                 Contact
               </NavLink>
-            </NavItem> */}
+            </NavItem> 
             <NavItem>
               <NavLink style={styles.link} tag={Link} to="/resume">
                 Resume
               </NavLink>
-            </NavItem>
+            </NavItem>*/}
             <NavItem>
               <NavLink style={styles.linkIcons} href="https://www.linkedin.com/in/codycclin/" target="_blank" rel="noopener noreferrer">
                 <img src={LinkedIn} alt="LinkedIn logo" height="26"></img>
