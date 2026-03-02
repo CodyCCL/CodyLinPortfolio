@@ -1,5 +1,5 @@
 import {Container, Col, Row, Card, CardBody } from 'react-bootstrap';
-import Hero from '/Lighthouse1.jpg';
+//import Hero from '/Lighthouse1.jpg';
 import "./Home/style.css";
 //import portrait from '/headshot.png';
 //import { Row } from 'reactstrap';
@@ -16,7 +16,7 @@ const aboutme = () => {
   
   return (
       <div>
-      <img src={Hero} alt='mount' className='Hero'></img>
+      {/* <img src={Hero} alt='mount' className='Hero'></img> */}
 
       <div className="text-light bg-dark p-5">
         
@@ -33,7 +33,7 @@ const aboutme = () => {
         <Col className='col-md-8'>
         <Card className='text-dark '>
           <CardBody style={styles.text}> <strong>
-          Hi, I'm Cody! I'm a passionate full-stack web developer with a strong foundation in building 
+          Hi, I&#039;m Cody! I&apos;m a passionate full-stack web developer with a strong foundation in building 
           dynamic web applications. While currently working as an environmental consultant for Federal and State agencies, 
           my experience has instilled in me the ability to adapt quickly and deliver results under client-driven deadlines.<br></br><br></br>
 

@@ -12,19 +12,20 @@ import {
 import LinkedIn from "/LI-In-Bug.png";
 import Github from "/github-mark.png";
 
+
 const styles = {
-  navbar: {
-    backgroundColor: "#FFFFFF",
-  },
-  link: {
-    color: "#2A9DB8",
-    fontWeight: "700",
-    paddingRight: "2rem",
-  },
-  linkIcons: {
-    color: "#FD6801",
+  // navbar: {
+  //   backgroundColor: "#FFFFFF",
+  // },
+  // link: {
+  //   color: "#2A9DB8",
+  //   fontWeight: "700",
+  //   paddingRight: "2rem",
+  // },
+  // linkIcons: {
+  //   color: "#FD6801",
     
-  },
+  // },
 };
 
 
@@ -55,11 +56,16 @@ function Navigation() {
     <>
     <Navbar expand="md" container light style={styles.navbar}>
         <NavbarBrand style={styles.link} tag={Link} to="/" className="me-auto">
-          Cody Lin
+        <img src="/logo.png" alt="Logo" style={{width: "40px", height: "40px", objectFit: "contain", marginRight: "10px"}} className="nav-logo"/>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
         <Nav navbar className="ms-auto py-3">
+            <NavItem>
+              <NavLink style={styles.link} tag={Link} to="/Home/index">
+                Home
+              </NavLink>
+            </NavItem>
             <NavItem>
               <NavLink style={styles.link} tag={Link} to="/aboutme">
                 About Me

@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
-// Just a test page for experimental work
+
 import './style.css';
-function Home() {
+const Home = () => {
     return (
         <Container>
         <Row>
