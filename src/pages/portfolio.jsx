@@ -17,23 +17,36 @@ const portfolio = () => {
     link: "https://codyccl.github.io/Wellmates/"
   },
   { 
-    title: "Cody's Landing Page", 
-    description: "My landing page is built using React. It introduces users about me as a software developer and showcases my technical skills. This site is deployed through Netlify. *Be on the lookout for new portfolio projects!", 
-    image: "/Lighthouse.jpg",
-    link: "https://codylinportfolio.netlify.app"
+    title: "HSE Static Website", 
+    description: "This is a responsive website built using HTML and CSS. It was created to demonstrate my understanding of semantic HTML and CSS best practices.", 
+    image: "/HSE.png",
+    link: "https://codyccl.github.io/Challenge-HSE/" 
   },
+  { 
+    title: "Workday Scheduler", 
+    description: "A simple calendar application that allows a user to save events for each hour of a typical working day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.", 
+    image: "/schedulerpic.png",
+    link: "https://codyccl.github.io/work-day-scheduler5/" 
+  },
+  
   /*{ 
     title: "Book Search Engine", 
     description: "This MERN stack website I created allows users to search for google books and allows signed up users to favorite books in their account. This is deployed on Render.", 
     image: "/p3.png", 
     link: "https://booksearchapi-tai0.onrender.com"
-  },
+  },*/
   { 
     title: "Javascript quiz", 
     description: "Using Javascript to create a timed quiz that tally correct responses. Still a work in progress!", 
     image: "/p4.png",
-    link: "https://codyccl.github.io/Code-Quiz-Challenge4/" 
-  },*/
+    link: "https://codyccl.github.io/CodeQuizRe/" 
+  },
+  { 
+    title: "Cody's Landing Page", 
+    description: "My landing page is built using React. It introduces users about me as a software developer and showcases my technical skills. This site is deployed through Netlify.", 
+    image: "/Lighthouse.jpg",
+    link: "https://codylinportfolio.netlify.app"
+  },
   { 
     title: "TBD", 
     description: "Coming Soon", 
